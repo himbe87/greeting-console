@@ -25,7 +25,7 @@ pipeline{
              steps {
                  sh '''
                      oc project bamayr-greetings
-                     oc start-buuuuuuild greeting-console  --follow --wait
+                     oc start-build greeting-console  --follow --wait
                  '''
              }
         }
